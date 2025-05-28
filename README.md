@@ -48,15 +48,15 @@ Revenue trend analysis for financial planning
 Business growth strategy and ROI projections
 
 📦 How to Run the Project
-# 1. Clone the repository:
-# git clone https://github.com/yourusername/revenue-rescue.git
-# cd revenue-rescue
+ 1. Clone the repository:
+ git clone https://github.com/yourusername/revenue-rescue.git
+ cd revenue-rescue
  
-# 2. Install dependencies:
-# pip install -r requirements.txt
+2. Install dependencies:
+    pip install -r requirements.txt
 
-# 3. Launch the Streamlit app:
-# streamlit run app.py
+ 3. Launch the Streamlit app:
+ streamlit run app.py
 
 📁 Data Requirements
 To ensure accurate predictions, the dataset should include:
