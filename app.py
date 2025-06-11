@@ -87,7 +87,6 @@ rain(
     falling_speed=5,
     animation_length="infinite"
 )
-
 if st.button("Generate Revenue Analysis"):
     st.switch_page("churn-generator.py")
 

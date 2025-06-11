@@ -282,5 +282,4 @@ def run_churn_pipeline(df, target_column="Churn", revenue_per_customer=1000, cos
         top_10_features,
         output_path="churn_report.pdf"
     )
-
     st.success(f"\n✅ Report saved as: churn_report.pdf")

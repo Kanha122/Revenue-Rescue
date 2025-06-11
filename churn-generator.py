@@ -4,8 +4,6 @@ import pandas as pd
 from predictive_analysis import run_churn_pipeline
 
 st.set_page_config(page_title="Churn Generator", page_icon="🔮")
-
-
 st.markdown("""
     <style>
         .heading {

@@ -4,8 +4,6 @@ from streamlit_extras.let_it_rain import rain
 import time
 
 st.set_page_config(page_title="About Us - Revenue Rescue", layout="wide", page_icon="📑")
-
-
 placeholder = st.empty()
 headlines = [
     "Welcome to Revenue Rescue 🚀",

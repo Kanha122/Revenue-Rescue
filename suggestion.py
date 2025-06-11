@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-
 if "suggestions" not in st.session_state:
     st.session_state.suggestions = []
 
