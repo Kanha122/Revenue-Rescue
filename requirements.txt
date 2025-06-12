@@ -12,3 +12,4 @@ xgboost
 shap
 dotenv
 streamlit
+ipython
