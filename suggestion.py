@@ -10,7 +10,7 @@ if "suggestions" not in st.session_state:
 
 def generate_suggestions():
     api_key = os.getenv("TOGETHER_API_KEY")
-    client = Together(api_key)
+    client = Together()
 
     response = client.chat.completions.create(
         model="deepseek-ai/DeepSeek-V3",
