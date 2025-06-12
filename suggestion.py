@@ -9,7 +9,7 @@ if "suggestions" not in st.session_state:
     st.session_state.suggestions = []
 
 def generate_suggestions():
-    api_key = os.getenv("API_KEY")
+    api_key = os.getenv("TOGETHER_API_KEY")
     client = Together(api_key=api_key)
 
     response = client.chat.completions.create(
