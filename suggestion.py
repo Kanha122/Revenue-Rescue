@@ -1,6 +1,5 @@
 import streamlit as st
 from together import Together
-import os
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -9,8 +8,8 @@ if "suggestions" not in st.session_state:
     st.session_state.suggestions = []
 
 def generate_suggestions():
-    api_key = os.getenv("TOGETHER_API_KEY")
-    client = Together()
+    api_key = st.secrets["TOGETHER_API_KEY"]
+    client = Together(api_key=api_key)
 
     response = client.chat.completions.create(
         model="deepseek-ai/DeepSeek-V3",
