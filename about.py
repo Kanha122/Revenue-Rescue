@@ -1,6 +1,5 @@
 import streamlit as st
 from streamlit_extras.colored_header import colored_header
-from streamlit_extras.let_it_rain import rain
 import time
 
 st.set_page_config(page_title="About Us - Revenue Rescue", layout="wide", page_icon="📑")
@@ -60,12 +59,7 @@ for col, (title, desc) in zip(cols, features):
         st.subheader(title)
         st.markdown(desc)
 
-rain(
-    emoji="💰",
-    font_size=40,
-    falling_speed=5,
-    animation_length="infinite"
-)
+
 
 
 st.markdown("---")
