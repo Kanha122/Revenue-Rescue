@@ -10,4 +10,5 @@ reportlab
 imblearn
 xgboost
 shap
+dotenv
 streamlit

@@ -9,4 +9,3 @@ suggestion=st.Page("suggestion.py", title="Suggestions", icon="🤖")
 navigate=st.navigation([main_file,generator, about, suggestion])
 
 navigate.run()
-
