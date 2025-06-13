@@ -24,7 +24,7 @@
 - **ML Models:** Scikit-learn, XGBoost  
 - **Explainability:** SHAP  
 - **Visualization:** Matplotlib, Seaborn  
-- **AI Chatbot:** OpenAI API or Langchain integration
+- **AI Chatbot:** Deepseek API
 
 ---
 
